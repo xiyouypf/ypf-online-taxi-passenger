@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ypf-passenger-infrastructure" />
+        <module name="ypf-passenger-web" />
+        <module name="ypf-passenger-service" />
+        <module name="ypf-passenger-domain" />
+        <module name="ypf-passenger-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ypf-online-taxi-passenger" options="" />
+      <module name="ypf-passenger-domain" options="-parameters" />
+      <module name="ypf-passenger-infrastructure" options="-parameters" />
+      <module name="ypf-passenger-interface" options="-parameters" />
+      <module name="ypf-passenger-service" options="-parameters" />
+      <module name="ypf-passenger-web" options="-parameters" />
+    </option>
+  </component>
+</project>
